@@ -55,7 +55,6 @@ body h1 {
     font-size: 1.2em;
     text-align: center;
   }
-
 /* END HEADER */
 
 /* HOME PAGE */
@@ -80,38 +79,45 @@ h3.menu-item-title {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  
 }
 
 p {
-  margin: 20px;
-  
+  margin: 20px; 
 }
 
+#back-top {
+margin: 10px auto 0;
+position: relative;
+}
+
+#back-top a {
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font-size: .9em;
+}
+
+#back-top a:hover {
+  text-decoration: none;
+  color: #E7E7E7;
+}
 /* END HOME PAGE */
 
 
 /* MEDIUM MEDIUM SIZE */
 @media (min-width: 992px) and (max-width: 1199px) {
-
-
-
 }
 
 /* SMALL MEDIUM SIZE */
 @media (min-width: 768px) and (max-width: 991px) {
-
  p {
   margin: 40px;
 }
-
 }
 
 /* EXTRA SMALL SIZE */
-@media (max-width: 767px) {
-   
+@media (max-width: 767px) {   
    p {
   margin: 40px;
 }
-
 }
